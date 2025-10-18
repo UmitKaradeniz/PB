@@ -2,17 +2,12 @@
 
 Teknosa Clone Web Sitesi - Quasar Framework ve Vue.js kullanılarak geliştirilmiş bir proje.
 
-## 🔒 Güvenlik Notu
+## 🚀 Özellikler
 
-Bu proje Firebase kullanmaktadır. Güvenlik nedeniyle Firebase yapılandırma dosyası repository'de bulunmamaktadır.
-
-### Firebase Kurulumu
-
-1. `config/firebase-config.example.js` dosyasını `config/firebase-config.js` olarak kopyalayın
-2. Firebase Console'dan kendi API anahtarlarınızı alın
-3. `firebase-config.js` dosyasındaki placeholder'ları kendi değerlerinizle değiştirin
-
-**ÖNEMLİ:** `firebase-config.js` dosyasını asla git'e eklemeyin!
+* Modern ve mobil uyumlu arayüz
+* Ürün ve görev (todo) yönetimi için sayfalar
+* Yardım ve hata sayfaları
+* Vue/Quasar ile hızlı geliştirme altyapısı
 
 ## Install the dependencies
 ```bash
