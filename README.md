@@ -1,11 +1,21 @@
-# Quasar App (quasar-todo)
+# Quasar Todo Uygulaması
 
-A Quasar Project
+Teknosa Clone Web Sitesi - Quasar Framework ve Vue.js kullanılarak geliştirilmiş bir proje.
+
+## 🔒 Güvenlik Notu
+
+Bu proje Firebase kullanmaktadır. Güvenlik nedeniyle Firebase yapılandırma dosyası repository'de bulunmamaktadır.
+
+### Firebase Kurulumu
+
+1. `config/firebase-config.example.js` dosyasını `config/firebase-config.js` olarak kopyalayın
+2. Firebase Console'dan kendi API anahtarlarınızı alın
+3. `firebase-config.js` dosyasındaki placeholder'ları kendi değerlerinizle değiştirin
+
+**ÖNEMLİ:** `firebase-config.js` dosyasını asla git'e eklemeyin!
 
 ## Install the dependencies
 ```bash
-yarn
-# or
 npm install
 ```
 

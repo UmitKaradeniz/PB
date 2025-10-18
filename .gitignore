@@ -27,3 +27,11 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+
+# Environment variables and sensitive data
+.env
+.env.local
+.env.*.local
+config/firebase-config.js
+*.key
+*.pem
