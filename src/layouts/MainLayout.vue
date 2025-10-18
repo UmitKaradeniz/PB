@@ -61,12 +61,10 @@
           <a ref="javascript:void(0)" class="text-black">
             
           </a>
-          <a ref="javascript:void(0)" class="text-white">
-            Giriş Yap veya Üye ol
-          </a>
+          <q-btn stretch flat label="Giriş Yap / Üye Ol" color="white" no-caps="" />
           <q-btn round flat>
            <q-icon name="person" color="white" />
-            <q-tooltip>Sepet Adımı</q-tooltip>
+            <q-tooltip>Hesap</q-tooltip>
           </q-btn>
           <a ref="javascript:void(0)" class="text-black">   
           </a>
@@ -121,7 +119,7 @@
               <q-icon name="login" />
             </q-item-section>
 
-            <q-item-section> Login / Sign up </q-item-section>
+            <q-item-section> Giriş Yap / Üye Ol </q-item-section>
           </q-item>
       
             <q-item to="/Filtre" exact clickable v-ripple>
@@ -133,10 +131,10 @@
           </q-item>
           <q-item to="/Urunler" exact clickable v-ripple>
             <q-item-section avatar>
-              <q-icon name="filter_alt" />
+              <q-icon name="devices" />
             </q-item-section>
 
-            <q-item-section> Urunler </q-item-section>
+            <q-item-section> Ürünler </q-item-section>
           </q-item>
             
           </q-list>

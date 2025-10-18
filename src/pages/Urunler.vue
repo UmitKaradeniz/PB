@@ -1,19 +1,13 @@
 <template>
-
+<div class="text-h6">Telefon Fiyatları ve Modelleri</div>
   <div class="q-pa-md row items-start q-gutter-md">
-    <q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val"
+    <q-card @click="$router.push('/sepetim')" class="cursor-pointer" :class="class_val"
             @mouseover="class_val='my-card shadow-20'"
             @mouseleave="class_val='my-card shadow-'">
       <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078436/125078436_0_MC/60698823.jpg"></q-img>
 
       <q-card-section class="q-pb-xs q-pt-md">
-        <!--<q-btn-->
-        <!--fab-->
-        <!--color="primary"-->
-        <!--icon="shopping_cart"-->
-        <!--class="absolute"-->
-        <!--style="top: 0; right: 12px; transform: translateY(-50%);"-->
-        <!--&gt;</q-btn>-->
+        
 
         <div class="row no-wrap items-center">
           <div class="col text-subtitle2 ellipsis-2-lines text-grey-10">
@@ -37,23 +31,17 @@
       </q-card-section>
 
     </q-card>
-    <q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val2"
+    <q-card @click="$router.push('/sepetim')" class="cursor-pointer" :class="class_val2"
             @mouseover="class_val2='my-card shadow-20'"
             @mouseleave="class_val2='my-card shadow-'">
-      <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078436/125078436_0_MC/60698823.jpg"></q-img>
+      <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078781/125078781_0_MC/66845409.jpg"></q-img>
 
       <q-card-section class="q-pb-xs q-pt-md">
-        <!--<q-btn-->
-        <!--fab-->
-        <!--color="primary"-->
-        <!--icon="shopping_cart"-->
-        <!--class="absolute"-->
-        <!--style="top: 0; right: 12px; transform: translateY(-50%);"-->
-        <!--&gt;</q-btn>-->
+       
 
         <div class="row no-wrap items-center">
           <div class="col text-subtitle2 ellipsis-2-lines text-grey-10">
-            Samsung Galaxy S22 8GB/128GB Siyah Akıllı Telefon                </div>
+            Apple iPhone 14 Pro Max 256 GB Mor Cep Telefonu</div>
           <div class="col-auto text-grey text-caption q-pt-md row no-wrap items-center">
             <!--<q-icon name="place"></q-icon>-->
             <!--250 ft-->
@@ -61,35 +49,29 @@
         </div>
 
         <q-rating v-model="stars" color="orange-10" :max="1" readonly size="20px" ></q-rating>
-        <span class="text-caption text-weight text-black">4.6 (5 Değerlendirme)</span>
+        <span class="text-caption text-weight text-black">4.9 (12 Değerlendirme)</span>
       </q-card-section>
 
       <q-card-section class="q-py-sm">
         <div>
-          <span class="text-h6">₺3,149</span><span class="q-ml-sm text-grey-6"
+          <span class="text-h6">₺62.499 </span><span class="q-ml-sm text-grey-6"
                                                    style="text-decoration: line-through"></span>
           <span class="q-ml-md text-caption text-green-8 text-weight-bolder q-mt-md"></span>
         </div>
       </q-card-section>
 
     </q-card>
-    <q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val3"
+    <q-card @click="$router.push('/sepetim')" class="cursor-pointer" :class="class_val3"
             @mouseover="class_val3='my-card shadow-20'"
             @mouseleave="class_val3='my-card shadow-'">
-      <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078436/125078436_0_MC/60698823.jpg"></q-img>
+      <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/780010273/780010273_0_MC/5018595c784149b7a5df07bd94f819a3.jpg"></q-img>
 
       <q-card-section class="q-pb-xs q-pt-md">
-        <!--<q-btn-->
-        <!--fab-->
-        <!--color="primary"-->
-        <!--icon="shopping_cart"-->
-        <!--class="absolute"-->
-        <!--style="top: 0; right: 12px; transform: translateY(-50%);"-->
-        <!--&gt;</q-btn>-->
+       
 
         <div class="row no-wrap items-center">
           <div class="col text-subtitle2 ellipsis-2-lines text-grey-10">
-            Samsung Galaxy S22 8GB/128GB Siyah Akıllı Telefon                </div>
+          Samsung Galaxy A54 128 GB Siyah Cep Telefonu</div>
           <div class="col-auto text-grey text-caption q-pt-md row no-wrap items-center">
             <!--<q-icon name="place"></q-icon>-->
             <!--250 ft-->
@@ -97,34 +79,28 @@
         </div>
 
         <q-rating v-model="stars" color="orange-10" :max="1" readonly size="20px" ></q-rating>
-        <span class="text-caption text-weight text-black">4.6 (5 Değerlendirme)</span>
+        <span class="text-caption text-weight text-black">0.0 (0 Değerlendirme)</span>
       </q-card-section>
 
       <q-card-section class="q-py-sm">
         <div>
-          <span class="text-h6">₺3,149</span><span class="q-ml-sm text-grey-6"
+          <span class="text-h6">₺12.999</span><span class="q-ml-sm text-grey-6"
                                                    style="text-decoration: line-through"></span>
           <span class="q-ml-md text-caption text-green-8 text-weight-bolder q-mt-md"></span>
         </div>
       </q-card-section>
 
-    </q-card><q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val4"
+    </q-card><q-card @click="$router.push('/sepetim')" class="cursor-pointer" :class="class_val4"
             @mouseover="class_val4='my-card shadow-20'"
             @mouseleave="class_val4='my-card shadow-'">
-      <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078436/125078436_0_MC/60698823.jpg"></q-img>
+      <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125077794/125077794_0_MC/1234.jpg"></q-img>
 
       <q-card-section class="q-pb-xs q-pt-md">
-        <!--<q-btn-->
-        <!--fab-->
-        <!--color="primary"-->
-        <!--icon="shopping_cart"-->
-        <!--class="absolute"-->
-        <!--style="top: 0; right: 12px; transform: translateY(-50%);"-->
-        <!--&gt;</q-btn>-->
+       
 
         <div class="row no-wrap items-center">
           <div class="col text-subtitle2 ellipsis-2-lines text-grey-10">
-            Samsung Galaxy S22 8GB/128GB Siyah Akıllı Telefon                </div>
+            Apple iPhone 11 256GB Akıllı Cep Telefon Beyaz Renk              </div>
           <div class="col-auto text-grey text-caption q-pt-md row no-wrap items-center">
             <!--<q-icon name="place"></q-icon>-->
             <!--250 ft-->
@@ -132,34 +108,28 @@
         </div>
 
         <q-rating v-model="stars" color="orange-10" :max="1" readonly size="20px" ></q-rating>
-        <span class="text-caption text-weight text-black">4.6 (5 Değerlendirme)</span>
+        <span class="text-caption text-weight text-black">4.5 (157 Değerlendirme)</span>
       </q-card-section>
 
       <q-card-section class="q-py-sm">
         <div>
-          <span class="text-h6">₺3,149</span><span class="q-ml-sm text-grey-6"
+          <span class="text-h6">₺22,249</span><span class="q-ml-sm text-grey-6"
                                                    style="text-decoration: line-through"></span>
           <span class="q-ml-md text-caption text-green-8 text-weight-bolder q-mt-md"></span>
         </div>
       </q-card-section>
 
-    </q-card><q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val5"
+    </q-card><q-card @click="$router.push('/sepetim')" class="cursor-pointer" :class="class_val5"
             @mouseover="class_val5='my-card shadow-20'"
             @mouseleave="class_val5='my-card shadow-'">
-      <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078436/125078436_0_MC/60698823.jpg"></q-img>
+      <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078396/125078396_0_MC/59142742.jpg"></q-img>
 
       <q-card-section class="q-pb-xs q-pt-md">
-        <!--<q-btn-->
-        <!--fab-->
-        <!--color="primary"-->
-        <!--icon="shopping_cart"-->
-        <!--class="absolute"-->
-        <!--style="top: 0; right: 12px; transform: translateY(-50%);"-->
-        <!--&gt;</q-btn>-->
+        
 
         <div class="row no-wrap items-center">
           <div class="col text-subtitle2 ellipsis-2-lines text-grey-10">
-            Samsung Galaxy S22 8GB/128GB Siyah Akıllı Telefon                </div>
+            Samsung Galaxy S21FE 5G 64GB Akıllı Telefon Yeşil </div>
           <div class="col-auto text-grey text-caption q-pt-md row no-wrap items-center">
             <!--<q-icon name="place"></q-icon>-->
             <!--250 ft-->
@@ -172,29 +142,23 @@
 
       <q-card-section class="q-py-sm">
         <div>
-          <span class="text-h6">₺3,149</span><span class="q-ml-sm text-grey-6"
+          <span class="text-h6">₺14.899</span><span class="q-ml-sm text-grey-6"
                                                    style="text-decoration: line-through"></span>
           <span class="q-ml-md text-caption text-green-8 text-weight-bolder q-mt-md"></span>
         </div>
       </q-card-section>
 
-    </q-card><q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val6"
+    </q-card><q-card @click="$router.push('/sepetim')" class="cursor-pointer" :class="class_val6"
             @mouseover="class_val6='my-card shadow-20'"
             @mouseleave="class_val6='my-card shadow-'">
-      <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078436/125078436_0_MC/60698823.jpg"></q-img>
+      <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078435/125078435_0_MC/60698822.jpg"></q-img>
 
       <q-card-section class="q-pb-xs q-pt-md">
-        <!--<q-btn-->
-        <!--fab-->
-        <!--color="primary"-->
-        <!--icon="shopping_cart"-->
-        <!--class="absolute"-->
-        <!--style="top: 0; right: 12px; transform: translateY(-50%);"-->
-        <!--&gt;</q-btn>-->
+        
 
         <div class="row no-wrap items-center">
           <div class="col text-subtitle2 ellipsis-2-lines text-grey-10">
-            Samsung Galaxy S22 8GB/128GB Siyah Akıllı Telefon                </div>
+            Samsung Galaxy S22 8GB64GB Yeşil Akıllı Telefon               </div>
           <div class="col-auto text-grey text-caption q-pt-md row no-wrap items-center">
             <!--<q-icon name="place"></q-icon>-->
             <!--250 ft-->
@@ -207,7 +171,7 @@
 
       <q-card-section class="q-py-sm">
         <div>
-          <span class="text-h6">₺3,149</span><span class="q-ml-sm text-grey-6"
+          <span class="text-h6">₺18.999</span><span class="q-ml-sm text-grey-6"
                                                    style="text-decoration: line-through"></span>
           <span class="q-ml-md text-caption text-green-8 text-weight-bolder q-mt-md"></span>
         </div>

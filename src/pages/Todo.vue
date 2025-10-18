@@ -37,6 +37,9 @@
             <q-item clickable>
               <q-item-section>Giyilebilir Teknoloji</q-item-section>
             </q-item>
+            <q-item clickable>
+              <q-item-section>Kulaklık</q-item-section>
+            </q-item>
           </q-list>
         </q-menu>
       </q-btn>
@@ -48,14 +51,20 @@
         >
           <q-list style="min-width: 100px">
             <q-item clickable>
-              <q-item-section>Having fun</q-item-section>
+              <q-item-section>Laptop / Notebook</q-item-section>
             </q-item>
             <q-item clickable>
-              <q-item-section>Crazy for transitions</q-item-section>
+              <q-item-section>Çevre Bilimleri</q-item-section>
+            </q-item>
+            <q-item clickable>
+              <q-item-section>Masaüstü Bilgisayarlar</q-item-section>
             </q-item>
             <q-separator />
             <q-item clickable>
-              <q-item-section>Mind blown</q-item-section>
+              <q-item-section>Gaming Ürünleri</q-item-section>
+            </q-item>
+            <q-item clickable>
+              <q-item-section>Tablet</q-item-section>
             </q-item>
           </q-list>
         </q-menu>
@@ -68,14 +77,14 @@
         >
           <q-list style="min-width: 100px">
             <q-item clickable>
-              <q-item-section>Having fun</q-item-section>
+              <q-item-section>Televizyon</q-item-section>
             </q-item>
             <q-item clickable>
-              <q-item-section>Crazy for transitions</q-item-section>
+              <q-item-section>TV Aksesuarı</q-item-section>
             </q-item>
             <q-separator />
             <q-item clickable>
-              <q-item-section>Mind blown</q-item-section>
+              <q-item-section>Hoparlör</q-item-section>
             </q-item>
           </q-list>
         </q-menu>
@@ -88,14 +97,14 @@
         >
           <q-list style="min-width: 100px">
             <q-item clickable>
-              <q-item-section>Having fun</q-item-section>
+              <q-item-section>Buzdolabı</q-item-section>
             </q-item>
             <q-item clickable>
-              <q-item-section>Crazy for transitions</q-item-section>
+              <q-item-section>Çamaşır Makinesi</q-item-section>
             </q-item>
             <q-separator />
             <q-item clickable>
-              <q-item-section>Mind blown</q-item-section>
+              <q-item-section>Ankastre Set</q-item-section>
             </q-item>
           </q-list>
         </q-menu>
@@ -109,14 +118,20 @@
         >
           <q-list style="min-width: 100px">
             <q-item clickable>
-              <q-item-section>Having fun</q-item-section>
+              <q-item-section>Mobilya</q-item-section>
             </q-item>
             <q-item clickable>
-              <q-item-section>Crazy for transitions</q-item-section>
+              <q-item-section>Aydınlatma</q-item-section>
             </q-item>
             <q-separator />
             <q-item clickable>
-              <q-item-section>Mind blown</q-item-section>
+              <q-item-section>Hırdavat ve Yapı</q-item-section>
+            </q-item>
+            <q-item clickable>
+              <q-item-section>Dikiş Makinesi</q-item-section>
+            </q-item>
+            <q-item clickable>
+              <q-item-section>Anne ve Bebek</q-item-section>
             </q-item>
           </q-list>
         </q-menu>
@@ -152,58 +167,165 @@
       <div class="col-6">
         <q-img
           src="https://img-teknosa-sap.mncdn.com/home/widget/hpw_deprem_seferberligi_230324.jpg"
-          :ratio="60 / 20"
         />
       </div>
-
       <div class="col-6">
         <q-img
           src="https://img-teknosa-sap.mncdn.com/home/widget/hpw_afet_bolgesi_saticisi_230404_.jpg"
-          :ratio="60 / 20"
+          />
+        </div>
+        <div class="col-4">
+        <q-img
+          src="https://img-teknosa-sap.mncdn.com/home/widget/widget_yenilenmishuaweip40lite_230609.jpg"
+          />
+        </div>
+        <div class="col-4">
+        <q-img
+          src="https://img-teknosa-sap.mncdn.com/home/widget/widget_jeneriktvkamp_230609.jpg"
+          />
+        </div>
+        <div class="col-4">
+        <q-img
+          src="https://img-teknosa-sap.mncdn.com/home/widget/msi_vga_ekran_karti_widget_230607.jpg"
+          />
+        </div>
+        <div class="col-4">
+        <q-img
+          src="https://img-teknosa-sap.mncdn.com/home/widget/widget_wanboprojeksiyon_230609.jpg"
+          />
+        </div>
+        <div class="col-4">
+        <q-img
+          src="https://img-teknosa-sap.mncdn.com/home/widget/widget_ssh_tckamp_230609.jpg"
+          />
+        </div>
+        <div class="col-4">
+        <q-img
+          src="https://img-teknosa-sap.mncdn.com/home/widget/widget_philips_sda_babalar_gunu_230606.jpg"
+          />
+        </div>
+        <div class="col-4">
+        <q-img
+          src="https://img-teknosa-sap.mncdn.com/home/widget/widget_xiaomiairfyer_230609.jpg"
+          />
+        </div>
+        <div class="col-4">
+        <q-img
+          src="https://img-teknosa-sap.mncdn.com/home/widget/widget_70mai_arackamera_230609.jpg"
+          />
+        </div>
+        <div class="col-4">
+        <q-img
+          src="https://img-teknosa-sap.mncdn.com/home/widget/sjrc_f11mp_drone_widget_230610.jpg"
           />
         </div>
     </div>
   </div>
-  <div class="q-pa-md row items-start q-gutter-md">
-    <q-card class="my-card" flat bordered>
-      <q-img
-        src="https://cdn.quasar.dev/img/parallax2.jpg"
-      />
-
-      <q-card-section>
-        <div class="text-overline text-orange-9">Overline</div>
-        <div class="text-h5 q-mt-sm q-mb-xs">Title</div>
-        <div class="text-caption text-grey">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  
+  <div class="text-grey-9 text-weight-bold">
+      <div class="row items-center q-mx-sm">
+        <div class="col-12 q-mt-sm">
+          <div class="q-pl-md bg-white q-pt-sm ">
+            <span class="text-grey-9 text-h6 text-weight-bold">Markalar</span>
+          </div>
+          <q-carousel
+            v-model="latest_slide"
+            transition-prev="slide-right"
+            transition-next="slide-left"
+            swipeable
+            animated
+            navigation
+            padding
+            arrows
+            height="260px"
+            class="rounded-borders"
+          >
+            <q-carousel-slide
+              v-for="(val, idx) in [1, 2, 3]"
+              :name="val"
+              :key="idx"
+              class="column no-wrap"
+            >
+              <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
+                <div
+                  @click="$router.push('/details')"
+                  class="col-lg-2 col-md-2 col-sm-12 col-xs-12 hover_border_grey text-center full-height"
+                >
+                  <q-img
+                    style=""
+                    class="rounded-borders"
+                    src="https://reimg-teknosa-cloud-prod.mncdn.com/staticimage/preo_brand_logo_220119_0_MC/9253370953778.png"
+                  >
+                  </q-img>
+                  
+                </div>
+                <div
+                  @click="$router.push('/details')"
+                  class="col-lg-2 col-md-2 col-sm-12 col-xs-12 hover_border_grey text-center full-height"
+                >
+                  <q-img
+                    style=""
+                    class="rounded-borders"
+                    src="https://reimg-teknosa-cloud-prod.mncdn.com/staticimage/apple_brand_logo_220119_0_MC/9253370560562.png"
+                  >
+                  </q-img>
+                 
+                </div>
+                <div
+                  @click="$router.push('/details')"
+                  class="col-lg-2 col-md-2 col-sm-12 col-xs-12 hover_border_grey text-center full-height"
+                >
+                  <q-img
+                    style=""
+                    class="rounded-borders"
+                    src="https://reimg-teknosa-cloud-prod.mncdn.com/staticimage/samsung_brand_logo_220119_0_MC/9253371019314.png"
+                  >
+                  </q-img>
+                  
+                </div>
+                <div
+                  @click="$router.push('/details')"
+                  class="col-lg-2 col-md-2 col-sm-12 col-xs-12 hover_border_grey text-center full-height"
+                >
+                  <q-img
+                    style=""
+                    class="rounded-borders"
+                    src="https://reimg-teknosa-cloud-prod.mncdn.com/staticimage/lg_brand_logo_220203_0_MC/9269457092658.png"
+                  >
+                  </q-img>
+                 
+                </div>
+                <div
+                  @click="$router.push('/details')"
+                  class="col-lg-2 col-md-2 col-sm-12 col-xs-12 hover_border_grey text-center full-height"
+                >
+                  <q-img
+                    style=""
+                    class="rounded-borders"
+                    src="https://reimg-teknosa-cloud-prod.mncdn.com/staticimage/braun_brand_logo_220119_0_MC/9253370691634.png"
+                  >
+                  </q-img>
+                  
+                </div>
+                <div
+                  @click="$router.push('/details')"
+                  class="col-lg-2 col-md-2 col-sm-12 col-xs-12 hover_border_grey text-center full-height"
+                >
+                  <q-img
+                    style=""
+                    class="rounded-borders"
+                    src="https://reimg-teknosa-cloud-prod.mncdn.com/staticimage/philips_logo_220125_0_MC/9260383109170.png"
+                  >
+                  </q-img>
+                 
+                </div>
+              </div>
+            </q-carousel-slide>
+          </q-carousel>
         </div>
-      </q-card-section>
+      </div>
+    </div>
 
-      <q-card-actions>
-        <q-btn flat color="primary" label="Share" />
-        <q-btn flat color="secondary" label="Book" />
-
-        <q-space />
-
-        <q-btn
-          color="grey"
-          round
-          flat
-          dense
-          :icon="expanded ? 'keyboard_arrow_up' : 'keyboard_arrow_down'"
-          @click="expanded = !expanded"
-        />
-      </q-card-actions>
-
-      <q-slide-transition>
-        <div v-show="expanded">
-          <q-separator />
-          <q-card-section class="text-subitle2">
-            {{ lorem }}
-          </q-card-section>
-        </div>
-      </q-slide-transition>
-    </q-card>
-  </div>     :-->
 </template>
 <script>
 
@@ -226,6 +348,7 @@ export default defineComponent({
   data() {
     return {
       slide: ref(1),
+      latest_slide: 1 ,
       tab: ref('Tüm Ürünler'),
       hello1: false,
       hello2: false,

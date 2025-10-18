@@ -1,7 +1,7 @@
 <template>
   <div class="q-pa-md" style="max-width: 350px">
     <q-list>
-      <q-expansion-item popup default-opened icon="filter_list" label="Alt Kategoriler" caption="5 unread emails">
+      <q-expansion-item popup default-opened icon="filter_list" label="Alt Kategoriler" caption="">
         <q-separator />
         <q-card>
           <div class="q-pa-mdd">
@@ -9,7 +9,7 @@
       :options="options" type="checkbox" v-model="group"/> </div>
           </q-card>
       </q-expansion-item>
-      <q-expansion-item popup icon="devices" label="Outbox" caption="Empty">
+      <q-expansion-item popup icon="devices" label="Markalar" caption="">
         <q-separator />
         <q-card>
           <div class="q-pa-mdd">
@@ -17,7 +17,7 @@
       :options="options1" type="checkbox" v-model="group"/> </div>
         </q-card>
       </q-expansion-item>
-      <q-expansion-item popup icon="high_quality" label="Draft" caption="Draft a new email">
+      <q-expansion-item popup icon="high_quality" label="Çözünürlük" caption="">
         <q-separator />
         <q-card>
           <div class="q-pa-mdd">
@@ -27,237 +27,6 @@
       </q-expansion-item>
     </q-list>
   </div>
-  
-  <div class="q-pa-md">
-    <q-img
-      src="https://cdn.quasar.dev/img/parallax2.jpg"
-      spinner-color="white"
-      style="height: 170px; max-width: 300px"
-      img-class="my-custom-image"
-      class="rounded-borders"
-    >
-    
-    </q-img>
-  </div>
-
-      <div class="">
-        <div class="q-pa-md row items-start q-gutter-md">
-          <q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val"
-                  @mouseover="class_val='my-card shadow-20'"
-                  @mouseleave="class_val='my-card shadow-'">
-            <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078436/125078436_0_MC/60698823.jpg"></q-img>
-
-            <q-card-section class="q-pb-xs q-pt-md">
-              <!--<q-btn-->
-              <!--fab-->
-              <!--color="primary"-->
-              <!--icon="shopping_cart"-->
-              <!--class="absolute"-->
-              <!--style="top: 0; right: 12px; transform: translateY(-50%);"-->
-              <!--&gt;</q-btn>-->
-
-              <div class="row no-wrap items-center">
-                <div class="col text-subtitle2 ellipsis-2-lines text-grey-10">
-                  Samsung Galaxy S22 8GB/128GB Siyah Akıllı Telefon                </div>
-                <div class="col-auto text-grey text-caption q-pt-md row no-wrap items-center">
-                  <!--<q-icon name="place"></q-icon>-->
-                  <!--250 ft-->
-                </div>
-              </div>
-
-              <q-rating v-model="stars" color="orange-10" :max="1" readonly size="20px" ></q-rating>
-              <span class="text-caption text-weight text-black">4.6 (5 Değerlendirme)</span>
-            </q-card-section>
-
-            <q-card-section class="q-py-sm">
-              <div>
-                <span class="text-h6">₺3,149</span><span class="q-ml-sm text-grey-6"
-                                                         style="text-decoration: line-through"></span>
-                <span class="q-ml-md text-caption text-green-8 text-weight-bolder q-mt-md"></span>
-              </div>
-            </q-card-section>
-
-          </q-card>
-          <q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val"
-                  @mouseover="class_val='my-card shadow-20'"
-                  @mouseleave="class_val='my-card shadow-'">
-            <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078436/125078436_0_MC/60698823.jpg"></q-img>
-
-            <q-card-section class="q-pb-xs q-pt-md">
-              <!--<q-btn-->
-              <!--fab-->
-              <!--color="primary"-->
-              <!--icon="shopping_cart"-->
-              <!--class="absolute"-->
-              <!--style="top: 0; right: 12px; transform: translateY(-50%);"-->
-              <!--&gt;</q-btn>-->
-
-              <div class="row no-wrap items-center">
-                <div class="col text-subtitle2 ellipsis-2-lines text-grey-10">
-                  Samsung Galaxy S22 8GB/128GB Siyah Akıllı Telefon                </div>
-                <div class="col-auto text-grey text-caption q-pt-md row no-wrap items-center">
-                  <!--<q-icon name="place"></q-icon>-->
-                  <!--250 ft-->
-                </div>
-              </div>
-
-              <q-rating v-model="stars" color="orange-10" :max="1" readonly size="20px" ></q-rating>
-              <span class="text-caption text-weight text-black">4.6 (5 Değerlendirme)</span>
-            </q-card-section>
-
-            <q-card-section class="q-py-sm">
-              <div>
-                <span class="text-h6">₺3,149</span><span class="q-ml-sm text-grey-6"
-                                                         style="text-decoration: line-through"></span>
-                <span class="q-ml-md text-caption text-green-8 text-weight-bolder q-mt-md"></span>
-              </div>
-            </q-card-section>
-
-          </q-card>
-          <q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val"
-                  @mouseover="class_val='my-card shadow-20'"
-                  @mouseleave="class_val='my-card shadow-'">
-            <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078436/125078436_0_MC/60698823.jpg"></q-img>
-
-            <q-card-section class="q-pb-xs q-pt-md">
-              <!--<q-btn-->
-              <!--fab-->
-              <!--color="primary"-->
-              <!--icon="shopping_cart"-->
-              <!--class="absolute"-->
-              <!--style="top: 0; right: 12px; transform: translateY(-50%);"-->
-              <!--&gt;</q-btn>-->
-
-              <div class="row no-wrap items-center">
-                <div class="col text-subtitle2 ellipsis-2-lines text-grey-10">
-                  Samsung Galaxy S22 8GB/128GB Siyah Akıllı Telefon                </div>
-                <div class="col-auto text-grey text-caption q-pt-md row no-wrap items-center">
-                  <!--<q-icon name="place"></q-icon>-->
-                  <!--250 ft-->
-                </div>
-              </div>
-
-              <q-rating v-model="stars" color="orange-10" :max="1" readonly size="20px" ></q-rating>
-              <span class="text-caption text-weight text-black">4.6 (5 Değerlendirme)</span>
-            </q-card-section>
-
-            <q-card-section class="q-py-sm">
-              <div>
-                <span class="text-h6">₺3,149</span><span class="q-ml-sm text-grey-6"
-                                                         style="text-decoration: line-through"></span>
-                <span class="q-ml-md text-caption text-green-8 text-weight-bolder q-mt-md"></span>
-              </div>
-            </q-card-section>
-
-          </q-card><q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val"
-                  @mouseover="class_val='my-card shadow-20'"
-                  @mouseleave="class_val='my-card shadow-'">
-            <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078436/125078436_0_MC/60698823.jpg"></q-img>
-
-            <q-card-section class="q-pb-xs q-pt-md">
-              <!--<q-btn-->
-              <!--fab-->
-              <!--color="primary"-->
-              <!--icon="shopping_cart"-->
-              <!--class="absolute"-->
-              <!--style="top: 0; right: 12px; transform: translateY(-50%);"-->
-              <!--&gt;</q-btn>-->
-
-              <div class="row no-wrap items-center">
-                <div class="col text-subtitle2 ellipsis-2-lines text-grey-10">
-                  Samsung Galaxy S22 8GB/128GB Siyah Akıllı Telefon                </div>
-                <div class="col-auto text-grey text-caption q-pt-md row no-wrap items-center">
-                  <!--<q-icon name="place"></q-icon>-->
-                  <!--250 ft-->
-                </div>
-              </div>
-
-              <q-rating v-model="stars" color="orange-10" :max="1" readonly size="20px" ></q-rating>
-              <span class="text-caption text-weight text-black">4.6 (5 Değerlendirme)</span>
-            </q-card-section>
-
-            <q-card-section class="q-py-sm">
-              <div>
-                <span class="text-h6">₺3,149</span><span class="q-ml-sm text-grey-6"
-                                                         style="text-decoration: line-through"></span>
-                <span class="q-ml-md text-caption text-green-8 text-weight-bolder q-mt-md"></span>
-              </div>
-            </q-card-section>
-
-          </q-card><q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val"
-                  @mouseover="class_val='my-card shadow-20'"
-                  @mouseleave="class_val='my-card shadow-'">
-            <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078436/125078436_0_MC/60698823.jpg"></q-img>
-
-            <q-card-section class="q-pb-xs q-pt-md">
-              <!--<q-btn-->
-              <!--fab-->
-              <!--color="primary"-->
-              <!--icon="shopping_cart"-->
-              <!--class="absolute"-->
-              <!--style="top: 0; right: 12px; transform: translateY(-50%);"-->
-              <!--&gt;</q-btn>-->
-
-              <div class="row no-wrap items-center">
-                <div class="col text-subtitle2 ellipsis-2-lines text-grey-10">
-                  Samsung Galaxy S22 8GB/128GB Siyah Akıllı Telefon                </div>
-                <div class="col-auto text-grey text-caption q-pt-md row no-wrap items-center">
-                  <!--<q-icon name="place"></q-icon>-->
-                  <!--250 ft-->
-                </div>
-              </div>
-
-              <q-rating v-model="stars" color="orange-10" :max="1" readonly size="20px" ></q-rating>
-              <span class="text-caption text-weight text-black">4.6 (5 Değerlendirme)</span>
-            </q-card-section>
-
-            <q-card-section class="q-py-sm">
-              <div>
-                <span class="text-h6">₺3,149</span><span class="q-ml-sm text-grey-6"
-                                                         style="text-decoration: line-through"></span>
-                <span class="q-ml-md text-caption text-green-8 text-weight-bolder q-mt-md"></span>
-              </div>
-            </q-card-section>
-
-          </q-card><q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val"
-                  @mouseover="class_val='my-card shadow-20'"
-                  @mouseleave="class_val='my-card shadow-'">
-            <q-img  style="height: 270px; max-width: 250px" src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/200/200/productimage/125078436/125078436_0_MC/60698823.jpg"></q-img>
-
-            <q-card-section class="q-pb-xs q-pt-md">
-              <!--<q-btn-->
-              <!--fab-->
-              <!--color="primary"-->
-              <!--icon="shopping_cart"-->
-              <!--class="absolute"-->
-              <!--style="top: 0; right: 12px; transform: translateY(-50%);"-->
-              <!--&gt;</q-btn>-->
-
-              <div class="row no-wrap items-center">
-                <div class="col text-subtitle2 ellipsis-2-lines text-grey-10">
-                  Samsung Galaxy S22 8GB/128GB Siyah Akıllı Telefon                </div>
-                <div class="col-auto text-grey text-caption q-pt-md row no-wrap items-center">
-                  <!--<q-icon name="place"></q-icon>-->
-                  <!--250 ft-->
-                </div>
-              </div>
-
-              <q-rating v-model="stars" color="orange-10" :max="1" readonly size="20px" ></q-rating>
-              <span class="text-caption text-weight text-black">4.6 (5 Değerlendirme)</span>
-            </q-card-section>
-
-            <q-card-section class="q-py-sm">
-              <div>
-                <span class="text-h6">₺3,149</span><span class="q-ml-sm text-grey-6"
-                                                         style="text-decoration: line-through"></span>
-                <span class="q-ml-md text-caption text-green-8 text-weight-bolder q-mt-md"></span>
-              </div>
-            </q-card-section>
-
-          </q-card>
-        </div>
-      </div>
-   
 </template>
 
 <script>
