@@ -1,11 +1,10 @@
-# Quasar Todo Uygulaması
+# Quasar Teknosa Uygulaması
 
 Teknosa Clone Web Sitesi - Quasar Framework ve Vue.js kullanılarak geliştirilmiş bir proje.
 
 ## 🚀 Özellikler
 
 * Modern ve mobil uyumlu arayüz
-* Ürün ve görev (todo) yönetimi için sayfalar
 * Yardım ve hata sayfaları
 * Vue/Quasar ile hızlı geliştirme altyapısı
 
